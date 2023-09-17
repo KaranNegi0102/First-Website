@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./image/peak.png.jpg);
+    background-color:rgb(5, 4, 81);
+    background-size: cover;
+    background-attachment: fixed;
+    color:rgb(31, 18, 12);
+    font-family: Verdana;
+}
+.heading{
+    color:cyan;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+}
+#head{
+    font-size: 1.8em;
+}
+#name{
+    width: 900px;
+    margin: auto;
+}
+form{
+    font-family: Verdana;
+    font-size: 20px;
+    background-color:lightblue;
+    display: flex;
+    padding-top: 35px;
+    align-items: center;
+    justify-content: center;
+    width: 55%;
+    border-radius: 10px;
+    margin:auto;
+    margin-top: 10px;
+    padding-bottom: 60px;
+    box-shadow: 5px 5px 10px cyan;
+}
+form .box{
+    width: 98.5%;
+    height:2.8em;
+    position: relative;
+    bottom: 10px;
+    border:0;
+    border-radius: 5px;
+
+}
+#options select{
+    width: 96.5%;
+    height: 2.7em;
+    position: relative;
+    bottom:10px;
+    border-radius: 5px;
+    border: 0;
+}
+#options2 select{
+    width: 98.6%;
+    height: 2.7em;
+    position: relative;
+    bottom:10px;
+    border-radius: 5px;
+    border: 0;
+}
+#content1 select{
+    width: 98.6%;
+    height: 2.7em;
+    position: relative;
+    bottom:10px;
+    border-radius: 5px;
+    border: 0;
+}
+button{
+    width: 50%;
+    height: 3em;
+    position: relative;
+    background-color: rgb(18, 239, 136);
+    color: rgb(241, 233, 233);
+    border-radius: 2px;
+}
+#abc{
+    width:70%;
+    height:100px;
+    position: relative;
+    background-color:lavender;
+
+}
+.sachin{
+    width:50%;
+    height:34px;
+    border-radius: 2px;
+    background-color: lavender;
+}
